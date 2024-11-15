@@ -25,6 +25,7 @@ if(sitenameregex.test(site_name.value) && urlregex.test(site_url.value))
   clear();
 }else
 {alert("enter valid site name and valid url name (the name must start with captial letter and url [https://www.xxxxx.com])");
+  clear()
 }
 }
 
