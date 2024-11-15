@@ -1,0 +1,85 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: "Pacifico", cursive;
+    position: relative;
+}
+
+
+.home{
+    background-color:antiquewhite;
+}
+
+
+.fs-10{
+
+font-size: 50px;
+
+
+
+}
+
+
+
+h1::before{
+    content: "";
+    position: absolute;
+    background-color:#fec260;
+    height: 25%;
+    width: 100%;
+    left: 0;
+    bottom: 1px;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+
+
+
+h1:hover::before {
+
+    height: 60%;
+}
+
+.div-dots{
+border-top:dotted black;
+border-bottom: dotted black ;
+
+
+}
+h2
+{
+    font-family: "Righteous", cursive;
+}
+
+h2.highlight{
+ background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+
+}
+
+
+
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(255, 230, 0, 0.381) !important;
+
+    border-color: #fbb234 !important;
+
+
+
+}
